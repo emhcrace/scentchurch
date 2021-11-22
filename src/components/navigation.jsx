@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            대한예수교장로회 향기로운교회
+            향기로운교회
           </a>{' '}
         </div>
 
