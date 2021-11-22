@@ -16,7 +16,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-            React Landing Page
+            대한예수교장로회 향기로운교회
           </a>{' '}
         </div>
 
@@ -27,37 +27,37 @@ export const Navigation = (props) => {
           <ul className='nav navbar-nav navbar-right'>
             <li>
               <a href='#features' className='page-scroll'>
-                Features
+                알려드립니다
               </a>
             </li>
             <li>
               <a href='#about' className='page-scroll'>
-                About
+                교회소개
               </a>
             </li>
             <li>
               <a href='#services' className='page-scroll'>
-                Services
+                우리의 사역
               </a>
             </li>
             <li>
               <a href='#portfolio' className='page-scroll'>
-                Gallery
+                성도의 교제
               </a>
             </li>
             <li>
               <a href='#testimonials' className='page-scroll'>
-                Testimonials
+                우리의 기도
               </a>
             </li>
             <li>
               <a href='#team' className='page-scroll'>
-                Team
+                향기로운 사역팀
               </a>
             </li>
             <li>
               <a href='#contact' className='page-scroll'>
-                Contact
+                문의합니다
               </a>
             </li>
           </ul>
