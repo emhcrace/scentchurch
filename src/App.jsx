@@ -14,31 +14,55 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true,
+  speed: 1000,
+  speedAsDuration: true,
 });
 
 const App = () => {
-    const [landingPageData, setLandingPageData] = useState({});
-    useEffect(() => {
-        setLandingPageData(JsonData);
-    }, []);
+  const [landingPageData, setLandingPageData] = useState({
+    Contact: undefined,
+    Team: { title: undefined, description: undefined, servants: undefined },
+    Testimonials: undefined,
+    Header: undefined,
+    Features: undefined,
+    About: undefined,
+    Services: { title: undefined, description: undefined, data: undefined },
+    Gallery: { title: undefined, description: undefined, data: undefined },
+  });
+  useEffect(() => {
+    setLandingPageData(JsonData);
+  }, []);
 
-    return (
-        <div id={"app-modal"}>
-            <ModalProvider>
-                <Navigation />
-                <Header data={landingPageData.Header} />
-                <Features data={landingPageData.Features} />
-                <About data={landingPageData.About} />
-                <Services data={landingPageData.Services} />
-                <Gallery data={landingPageData.Gallery} />
-                <Testimonials data={landingPageData.Testimonials} />
-                <Team data={landingPageData.Team} />
-                <Contact data={landingPageData.Contact} />
-            </ModalProvider>
-        </div>
-    );
+  return (
+    <div id={"app-modal"}>
+      <ModalProvider>
+        <Navigation />
+        <Header data={landingPageData.Header} />
+        <Features data={landingPageData.Features} />
+        <About data={landingPageData.About} />
+        {/*<Services data={landingPageData.Services} />*/}
+        <Gallery
+          data={landingPageData.Services.data}
+          title={landingPageData.Services.title}
+          description={landingPageData.Services.description}
+          id={"services"}
+        />
+        <Gallery
+          data={landingPageData.Gallery.data}
+          title={landingPageData.Gallery.title}
+          description={landingPageData.Gallery.description}
+          id={"portfolio"}
+        />
+        <Testimonials data={landingPageData.Testimonials} />
+        <Team
+          data={landingPageData.Team.servants}
+          title={landingPageData.Team.title}
+          description={landingPageData.Team.description}
+        />
+        <Contact data={landingPageData.Contact} />
+      </ModalProvider>
+    </div>
+  );
 };
 
 export default App;

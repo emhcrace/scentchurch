@@ -42,12 +42,12 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                우리의 사역
+                주일예배영상
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                주일예배영상
+                향기로운 교제
               </a>
             </li>
             <li>

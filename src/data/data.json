@@ -18,64 +18,62 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery": [
-    {
-      "title": "2021년 11월 21일 향기로운 교회 예배 실황",
-      "largeImage": "img/mediaLogo.png",
-      "smallImage": "img/mediaLogo.png",
-      "url": "https://youtu.be/U4v1-Ly9E_0"
-    },
-    {
-      "title": "2021년 11월 14일 향기로운 교회 예배 실황",
-      "largeImage": "img/mediaLogo.png",
-      "smallImage": "img/mediaLogo.png",
-      "url": "https://youtu.be/p0tS6y2J5qo"
-    },
-    {
-      "title": "2021년 11월 7일 향기로운 교회 예배 실황",
-      "largeImage": "img/mediaLogo.png",
-      "smallImage": "img/mediaLogo.png",
-      "url": "https://youtu.be/OSpbai80Uy0"
-    },
-    {
-      "title": "2021년 10월 31일 향기로운 교회 예배 실황",
-      "largeImage": "img/mediaLogo.png",
-      "smallImage": "img/mediaLogo.png",
-      "url": "https://youtu.be/aQzItCSnHGg"
-    }
-  ],
-  "Services": [
-    {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    }
-  ],
+  "Gallery":{
+    "title": "향기로운 교제",
+    "description": "그런즉 아볼로는 무엇이며 바울은 무엇이냐 그들은 주께서 각각 주신 대로 너희로 하여금 믿게 한 사역자들이니라. (고린도전서 3:5)",
+    "data" :   [
+      {
+        "title": "2021년 11월 21일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png"
+      },
+      {
+        "title": "2021년 11월 14일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png"
+      },
+      {
+        "title": "2021년 11월 7일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png"
+      },
+      {
+        "title": "2021년 10월 31일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png"
+      }
+    ]
+  },
+  "Services":{
+    "title": "주일예배영상",
+    "description": "아버지께 참되게 예배하는 자들은 영과 진리로 예배할 때가 오나니 곧 이 때라 아버지께서는 자기에게 이렇게 예배하는 자들을 찾으시느니라. (요한복음 4:23)",
+    "data" :   [
+      {
+        "title": "2021년 11월 21일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png",
+        "url": "https://youtu.be/U4v1-Ly9E_0"
+      },
+      {
+        "title": "2021년 11월 14일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png",
+        "url": "https://youtu.be/p0tS6y2J5qo"
+      },
+      {
+        "title": "2021년 11월 7일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png",
+        "url": "https://youtu.be/OSpbai80Uy0"
+      },
+      {
+        "title": "2021년 10월 31일 향기로운 교회 예배 실황",
+        "largeImage": "img/mediaLogo.png",
+        "smallImage": "img/mediaLogo.png",
+        "url": "https://youtu.be/aQzItCSnHGg"
+      }
+    ]
+  },
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
@@ -108,28 +106,22 @@
       "name": "Johnathan Doe"
     }
   ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
+  "Team": {
+    "title": "향기로운 사역팀",
+    "description": "그런즉 아볼로는 무엇이며 바울은 무엇이냐 그들은 주께서 각각 주신 대로 너희로 하여금 믿게 한 사역자들이니라. (고린도전서 3:5)",
+    "servants": [
+      {
+        "img": "img/team/01.jpg",
+        "name": "John Doe",
+        "status": "담임목사"
+      },
+      {
+        "img": "img/team/02.jpg",
+        "name": "Mike Doe",
+        "status": "부목사"
+      }
+    ]
+  },
   "Contact": {
     "address": "향기로운 교회는 대한예수교장로회 합동교단 수경노회에 소속된 건강한 교회입니다",
     "phone": "031) 794-9022",
