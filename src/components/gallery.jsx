@@ -12,8 +12,8 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>주일예배영상</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            하나님은 영이시니 예배하는 자가 신령과 진정으로 예배할찌니라.
+            (요한복음 4장 24절)
           </p>
         </div>
         <div className="row">
