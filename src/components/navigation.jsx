@@ -32,7 +32,7 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                알려드립니다
+                교회비전
               </a>
             </li>
             <li>

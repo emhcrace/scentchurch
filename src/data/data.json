@@ -4,12 +4,15 @@
     "paragraph": "대한예수교장로회 합동교단 수경노회에 소속된 건강한 교회"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "저희 향기로운 교회 홈피를 방문해 주신 여러분을 진심으로 환영합니다. \n 여러분의 가정과 하시는 사업에 하나님의 은혜와 축복이 늘 함께하시기를 축복합니다. \n 하나님은 여러분을 진심으로 사랑하십니다. 우리 향기로운 교회도 여러분을 사랑하고 섬기기를 원합니다. \n 저희 향기로운 교회는 하나님을 사랑하고 이웃을 사랑하는 사랑의 공동체를 염원합니다. \n저희 향기로운 교회는 가정과 지역과 민족의 복음화와 세계 열방의 선교를 통해 하나님 나라를 확장하는데 비전을 가지고 있습니다. \n 신앙의 도움을 받기를 원하시면 언제든지 저희 교회로 오십시오. \n 저희 향기로운 교회는 대한 예수교 장로회 합동 교단에 소속된 교회로서 총신대학교와 충현교회 오륜교회 등 총회와 노회에 소속되어 건강하고 행복한 교회를 지향하고 있습니다. \n 감사합니다. 사랑합니다. 향기로운 교회 담임 목사 심재현 ",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "1982년 7월 25일 대한예수교 장로회 석촌제일 교회로 개척하다.",
+      "1993년 9월 삼전동에 예배당을 건축하고 이전 입당하다. ",
+      "2002년 11월 1일에 중국 신합향 교회를 설립하다. ",
+      "1902년 12월 27일 강동구 명일동에 (대지 352평 건평 555평) 예배당을 매입하여 이전하다. 석촌제일교회를 향기로운 교회로 개명하다.",
+      "1905년 필리핀에 세 개 예배당과 학교를 세우다. ",
+      "1910년 캄보디아에 선목선교회와 함께 선목선교 교회를 세우다.  ",
+      "2020년 경기도 하남으로 (대지 432평 건평 1200평) 예배당을 신축하여 이전하다. "
     ],
     "Why2": [
       "Aliquip ex ea commodo",
@@ -18,10 +21,10 @@
       "Lorem ipsum dolor"
     ]
   },
-  "Gallery":{
+  "Gallery": {
     "title": "향기로운 교제",
     "description": "그런즉 아볼로는 무엇이며 바울은 무엇이냐 그들은 주께서 각각 주신 대로 너희로 하여금 믿게 한 사역자들이니라. (고린도전서 3:5)",
-    "data" :   [
+    "data": [
       {
         "title": "2021년 11월 21일 향기로운 교회 예배 실황",
         "largeImage": "img/mediaLogo.png",
@@ -44,10 +47,10 @@
       }
     ]
   },
-  "Services":{
+  "Services": {
     "title": "주일예배영상",
     "description": "아버지께 참되게 예배하는 자들은 영과 진리로 예배할 때가 오나니 곧 이 때라 아버지께서는 자기에게 이렇게 예배하는 자들을 찾으시느니라. (요한복음 4:23)",
-    "data" :   [
+    "data": [
       {
         "title": "2021년 11월 21일 향기로운 교회 예배 실황",
         "largeImage": "img/mediaLogo.png",
@@ -111,8 +114,8 @@
     "description": "그런즉 아볼로는 무엇이며 바울은 무엇이냐 그들은 주께서 각각 주신 대로 너희로 하여금 믿게 한 사역자들이니라. (고린도전서 3:5)",
     "servants": [
       {
-        "img": "img/team/01.jpg",
-        "name": "John Doe",
+        "img": "img/team/pastor_sim.png",
+        "name": "심재현",
         "status": "담임목사"
       },
       {
@@ -130,26 +133,35 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  "Features": {
+    "title": "비전",
+    "description": "",
+    "data": [
+      {
+        "icon": "fa fa-comments-o",
+        "title": "첫째",
+        "text": "주님의 임재와 하나님 나라를 경험하는 예배"
+      },
+      {
+        "icon": "fa fa-bullhorn",
+        "title": "둘째",
+        "text": "서로 사랑의 교제를 나누는 사랑의 공동체"
+      },
+      {
+        "icon": "fa fa-group",
+        "title": "셋째",
+        "text": "양육과 훈련을 통해 세워지는 주님의 제자"
+      },
+      {
+        "icon": "fa fa-magic",
+        "title": "넷째",
+        "text": "하나님 나라를 확장하는 세계 선교"
+      },
+      {
+        "icon": "fa fa-group",
+        "title": "다섯째",
+        "text": "다음 세대를 준비하는 교회"
+      }
+    ]
+  }
 }

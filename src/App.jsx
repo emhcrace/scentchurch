@@ -24,7 +24,7 @@ const App = () => {
     Team: { title: undefined, description: undefined, servants: undefined },
     Testimonials: undefined,
     Header: undefined,
-    Features: undefined,
+    Features: { title: undefined, description: undefined, data: undefined },
     About: undefined,
     Services: { title: undefined, description: undefined, data: undefined },
     Gallery: { title: undefined, description: undefined, data: undefined },
@@ -38,7 +38,11 @@ const App = () => {
       <ModalProvider>
         <Navigation />
         <Header data={landingPageData.Header} />
-        <Features data={landingPageData.Features} />
+        <Features
+          data={landingPageData.Features.data}
+          title={landingPageData.Features.title}
+          description={landingPageData.Features.description}
+        />
         <About data={landingPageData.About} />
         {/*<Services data={landingPageData.Services} />*/}
         <Gallery
